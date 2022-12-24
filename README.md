@@ -8,7 +8,7 @@ El objetivo de este proyecto es hacer uso de las herramientas de GCP para crear 
 -  BigQuery
 -  Looker Studio
 
-[imagen del diseño]
+![Diagrama](https://github.com/sebakjal/ping_streaming/blob/main/FlowDiagram.png)
 
 Para calcular la latencia de una página se usa el comando de bash "ping", que combinado con otros comandos produce una linea de texto con los siguientes datos:
 
@@ -21,6 +21,6 @@ Este proceso se realiza de forma ininterrumpida o hasta que manualmente se pare 
 
 Por último, los datos guardados en BigQuery se utilizan para crear un dashboard en Looker Studio, mostrando gráficos de serie temporal de la evolución de la latencia en el tiempo. En la imagen de ejemplo se muestran 2 gráficos, el primero tiene la línea de el ping promedio y máximo en la última hora, mientras que el segundo representa el ping promedio para todo el día.
 
-[EJem´ññp]
+![Ejemplo](https://github.com/sebakjal/ping_streaming/blob/main/ejemplo2.png)
 
 El proyecto está aun en desarrollo. Está mostrando resultados para una página en tiempo real a través de Looker Studio, pero falta agregar más indicadores, ordenar más el código y agregar más páginas.
