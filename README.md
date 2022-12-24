@@ -10,6 +10,8 @@ El objetivo de este proyecto es hacer uso de las herramientas de GCP para crear 
 
 ![Diagrama](https://github.com/sebakjal/ping_streaming/blob/main/FlowDiagram.png)
 
+## Procedimiento
+
 Para calcular la latencia de una página se usa el comando de bash "ping", que combinado con otros comandos produce una linea de texto con los siguientes datos:
 
 Fecha y hora del momento de medición de ping, el ping promedio, máximo y mínimo durante la medición, y la desviación estándar durante esta.
