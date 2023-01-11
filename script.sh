@@ -1,1 +1,0 @@
-(date +'%F %T' && echo ' ' && ping -i 1 -c 4 google.cl | tail -1) | tr -d '\n'
