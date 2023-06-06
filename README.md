@@ -25,4 +25,6 @@ Por último, los datos guardados en BigQuery se utilizan para crear un dashboard
 
 ![Ejemplo](https://github.com/sebakjal/ping_streaming/blob/main/ejemplo2.png)
 
-El proyecto está aun en desarrollo. Está mostrando resultados para una página en tiempo real a través de Looker Studio, pero falta agregar más indicadores, ordenar más el código y agregar más páginas.
+El proyecto logró mostrar resultados para una página en tiempo real a través de Looker Studio, pero falta agregar más indicadores, ordenar más el código y agregar más páginas. 
+
+A pesar de los resultados, el desarrollo del proyecto se dejó en pausa debido a los costos de mantener esta pipeline.
