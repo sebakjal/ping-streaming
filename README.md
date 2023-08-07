@@ -27,4 +27,4 @@ Por último, los datos guardados en BigQuery se utilizan para crear un dashboard
 
 El proyecto logró mostrar resultados para una página en tiempo real a través de Looker Studio, pero falta agregar más indicadores, ordenar más el código y agregar más páginas. 
 
-A pesar de los resultados, el desarrollo del proyecto se dejó en pausa debido a los costos de mantener esta pipeline.
+A pesar de los resultados, el desarrollo del proyecto se dejó indefinidamente en pausa debido a los costos de mantener esta pipeline funcionando una vez por minuto para cada sitio, tiempo que tampoco puede aumentar debido a que el objetivo es usar un intervalo de tiempo que sea lo suficientemente corto como para registrar pequeñas variaciones de respuesta. 
